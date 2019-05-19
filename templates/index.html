@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing</title>
+    </head>
+    <body>
+        <h3>What is your name?</h3>
+        <form action='/process' method='post'>
+            name: <input type='text' name='first_name'>
+            <input type='submit' value='create user'>
+        </form>
+        <h3>{{name}}</h3>
+    </body>
+</html>
